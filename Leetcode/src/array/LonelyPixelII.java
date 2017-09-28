@@ -1,5 +1,19 @@
 package array;
 
+/**
+ * Problem 533
+ * Given a picture consisting of black and white pixels, 
+ * and a positive integer N, find the number of black pixels 
+ * located at some specific row R and column C that align with 
+ * all the following rules:
+ *
+ *	1.	Row R and column C both contain exactly N black pixels.
+ *	2.	For all rows that have a black pixel at column C, they should be exactly the same as row R
+ *
+ *	The picture is represented by a 2D char array 
+ *  consisting of 'B' and 'W', which means black and 
+ *  white pixels respectively.
+**/
 public class LonelyPixelII {
     public int findBlackPixel(char[][] picture, int N) {
         if(picture == null || picture.length == 0)
