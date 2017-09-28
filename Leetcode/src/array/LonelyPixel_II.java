@@ -14,7 +14,7 @@ package array;
  *  consisting of 'B' and 'W', which means black and 
  *  white pixels respectively.
 **/
-public class LonelyPixelII {
+public class LonelyPixel_II {
     public int findBlackPixel(char[][] picture, int N) {
         if(picture == null || picture.length == 0)
             return 0;
