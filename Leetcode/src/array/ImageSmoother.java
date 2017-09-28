@@ -69,7 +69,7 @@ public class ImageSmoother {
             count++;
         }
         
-        //bottom left cornet
+        //bottom left corner
         if(i+1<m && j-1>=0)
         {
             sum+=M[i+1][j-1];
@@ -82,7 +82,7 @@ public class ImageSmoother {
             sum+=M[i+1][j];
             count++;
         }
-        
+        //bottom right corner
         if(i+1 <m && j+1<n)
         {
             sum+=M[i+1][j+1];
